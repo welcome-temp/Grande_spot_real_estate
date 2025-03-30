@@ -1,10 +1,4 @@
-/*
 
-TemplateMo 571 Hexashop
-
-https://templatemo.com/tm-571-hexashop
-
-*/
 
 /* ---------------------------------------------
 Table of contents
@@ -82,7 +76,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: #fff;
+  background-color: #000;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -115,7 +109,7 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background: #000;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -209,7 +203,7 @@ header
 
 .background-header {
   border-bottom: none !important;
-  background-color: #fff;
+  background-color: #000;
   height: 80px!important;
   position: fixed!important;
   top: 0px;
@@ -759,7 +753,10 @@ banner
   margin-bottom: 20px;
 }
 
-
+.logo{
+height:10px;
+  width:10px;
+}
 
 /*
 ---------------------------------------------
