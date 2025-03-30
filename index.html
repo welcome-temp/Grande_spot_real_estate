@@ -691,7 +691,7 @@
 
 
     <div style="z-index:999; position:fixed; bottom:0; left:0; display:none; " id="hiddenElement">
-      <strong id="msg" style="display:none; " > hi dear, <br> Am Henry, here to guide you through our agency webpage</strong>
+      <strong id="msg" style="display:none; background-color:#fff; font-size:10px; height:100px; " > hi dear, <br> Am Henry, here to guide you through our agency webpage</strong>
         <img src="assets/images/msg.png" height="100"  >
      </div>
 
@@ -702,7 +702,11 @@
 
       setTimeout(function() {
             document.getElementById("msg").style.display = "block";
-        }, 4000); // 4 seconds (4000 ms)
+        }, 5000); // 4 seconds (4000 ms)
+
+      setTimeout(function() {
+            document.getElementById("msg").style.display = "none";
+        }, 10000); // 8 seconds (8000 ms)
   
     
     </script>
