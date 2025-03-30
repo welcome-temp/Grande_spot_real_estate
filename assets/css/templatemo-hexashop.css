@@ -99,7 +99,7 @@ ul {
 p {
   font-size: 14px;
   line-height: 25px;
-  color: #2a2a2a;
+  color: #fff;
 }
 
 /* 
@@ -228,7 +228,7 @@ header
 .header-area {
   border-bottom: 3px dotted #eee;
   box-shadow: none;
-  background-color: #fff;
+  background-color: green;
   position: absolute;
   top: 0px;
   left: 0px;
